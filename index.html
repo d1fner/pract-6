@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>pract</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <!-- Зміна кольору фона-->
+    <h1>Зміна кольору фону</h1>
+    <button id="brown" class="color-button" onclick="changeColor('brown')">Коричневий</button>
+    <button id="white" class="color-button" onclick="changeColor('white')">Білий</button>
+    <button id="grey" class="color-button" onclick="changeColor('grey')">Сірий</button>
+    <!-- Кінець кольору фона-->
+
+    <!-- Тестування елемента -->
+    <div class="test-container">
+        <h1>Тестування: Логічна операція "Виключаюче Або"</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>A XOR B</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>
+                        <select id="result1">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>
+                        <select id="result2">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>
+                        <select id="result3">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>
+                        <select id="result4">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="checkResults()">Перевірити</button>
+        <div class="result" id="test-result"></div>
+    </div>
+    <!-- Кінець тестування елемента -->
+
+    <!-- Ділення 10 на 5 -->
+    <div class="container">
+        <h1>Тестування учнів початкових класів</h1>
+        <form id="quiz-form">
+            <p>Скільки буде 10 поділити на 5?</p>
+            <ul>
+                <li>
+                    <input type="radio" id="answer1" name="answer" value="1">
+                    <label for="answer1">1</label>
+                </li>
+                <li>
+                    <input type="radio" id="answer2" name="answer" value="2">
+                    <label for="answer2">2</label>
+                </li>
+                <li>
+                    <input type="radio" id="answer3" name="answer" value="5">
+                    <label for="answer3">5</label>
+                </li>
+            </ul>
+            <button type="button" onclick="checkAnswer()">Перевірити</button>
+        </form>
+        <p id="quiz-result"></p>
+    </div>
+    <!-- Кінець ділення 10 на 5 -->
+
+    <!-- Форма реєстрації -->
+    <div class="registration-container">
+        <h1>Реєстрація нового користувача</h1>
+        <form id="registration-form">
+            <!-- Реєстраційні дані -->
+            <div class="form-group">
+                <label for="username">Ім'я користувача:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Підтвердження пароля:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            
+            <!-- Персональні дані -->
+            <div class="form-group">
+                <label for="first-name">Ім'я:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Прізвище:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <button type="submit">Зареєструватися</button>
+        </form>
+        <p id="registration-result"></p>
+    </div>
+    <!-- Кінець Форми реєстрації -->
+</body>
+</html>
+

@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00eeffb3;
+    height: 100vh;
+    
+}
+
+/* Зміна кольору фона */
+.color-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50px;
+    height: 50px;
+    width: 130px;
+    
+}
+
+#brown { background-color: rgba(165, 42, 42, 0.76); color: rgb(0, 0, 0); }
+#white { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+#grey { background-color: rgb(72, 72, 72); color: black; }
+/* Кінець кольору фона */
+
+/* Тестування елемента */
+h1 {
+    color: #333;
+}
+
+.test-container {
+    width: 170px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+table {
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result p {
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Кінець тестування елемента */
+
+/* Ділення 10 на 5 */
+.container {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 24px;
+}
+
+form p {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    margin: 10px 0;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: #981c1c;
+}
+
+#quiz-result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+/* Кінець ділення 10 на 5 */
+
+/* Форма реєстрації */
+.registration-container {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#registration-result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+/* Кінець форми реєстрації */
+
